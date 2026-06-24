@@ -1,0 +1,54 @@
+.hero-section{
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.55),
+            rgba(0,0,0,0.55)
+        ),
+        url('Gemini_Generated_Image_.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-image{
+    background-image: url('images/mechanic.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    filter: blur(2px);
+}
+#how-it-works .card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+#why-choose-us .card {
+  transition: 0.3s ease;
+  border-radius: 12px;
+}
+
+#why-choose-us .card:hover {
+  transform: translateY(-8px);
+}
+#contact .form-control {
+  border-radius: 10px;
+}
+
+#contact .btn {
+  border-radius: 10px;
+}
+.offcanvas {
+  background-color: #f8f9fa;
+}
+
+.list-group-item {
+  border: none;
+  font-weight: 500;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+}
+.small-sidebar {
+    width: 260px; /* default is ~400px, we shrink it */
+}

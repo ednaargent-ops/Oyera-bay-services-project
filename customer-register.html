@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Registration</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Oyera Services Bay</a>
+  </div>
+</nav>
+
+<!-- FORM SECTION -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+
+        <div class="card shadow-sm border-0 p-4">
+
+          <h3 class="text-center fw-bold mb-4">Customer Registration</h3>
+          <p class="text-center mb-4">
+            Tell us about you and your vehicle so we can assist you faster 🚗
+          </p>
+
+          <form>
+
+            <!-- PERSONAL INFO -->
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Enter your full name">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Phone Number</label>
+                <input type="text" class="form-control" placeholder="+256...">
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Email (Optional)</label>
+                <input type="email" class="form-control" placeholder="example@email.com">
+              </div>
+
+              <hr class="my-4">
+
+              <!-- VEHICLE INFO -->
+              <div class="col-md-6">
+                <label class="form-label">Vehicle Make</label>
+                <input type="text" class="form-control" placeholder="Toyota, BMW, Mercedes...">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Vehicle Model</label>
+                <input type="text" class="form-control" placeholder="Prado, X5, C200...">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Vehicle Year</label>
+                <input type="number" class="form-control" placeholder="2015">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Number Plate</label>
+                <input type="text" class="form-control" placeholder="UBC 123A">
+              </div>
+
+              <hr class="my-4">
+
+              <!-- ISSUE INFO -->
+              <div class="col-12">
+                <label class="form-label">Current Issue</label>
+                <select class="form-select">
+                  <option selected>Select issue</option>
+                  <option>Engine Problem</option>
+                  <option>Brake Issue</option>
+                  <option>Battery Problem</option>
+                  <option>Tyre / Wheel Issue</option>
+                  <option>Accident Damage</option>
+                  <option>Routine Service</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Location</label>
+                <input type="text" class="form-control" placeholder="Your current location or landmark">
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Additional Notes</label>
+                <textarea class="form-control" rows="4" placeholder="Describe the issue briefly..."></textarea>
+              </div>
+
+              <!-- SUBMIT -->
+              <div class="col-12 mt-3">
+                <button type="submit" class="btn btn-warning w-100 btn-lg">
+                  Submit Request
+                </button>
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
